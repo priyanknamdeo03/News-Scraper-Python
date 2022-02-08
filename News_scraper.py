@@ -36,7 +36,7 @@ class News:
             article_number = count
             article_name = news.find('h2', class_='newsHdng').text
             news_agency_name = news.find('span', class_='posted-by').text.replace(' ', '').split("|")[0]
-            news_published_date = news.find('span', class_='posted-by').text.split("|")[1].split(",")[0]
+            news_published_date = news.find('span', class_='posted-by').text.split("|")[0].split(",")[0]
             # news_location = news.find('span', class_='posted-by').text.split("|")[1].split(",")
             # print(news_location)
             news_info = news.find('p', class_='newsCont').text

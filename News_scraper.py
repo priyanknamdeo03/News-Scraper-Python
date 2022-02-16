@@ -38,9 +38,8 @@ class News:
         for news in news_tags:
             article_number = count
             article_name = news.find('h2', class_='newsHdng').text
-            news_agency_name = news.find('span', class_='posted-by').text.replace(' ', '').split("|")[0]
-            news_published_date = news.find('span', class_='posted-by').text.split("|")[0].split(",")[0]
-            
+            news_agency_name = news.find('span', class_='posted-by').text.replace(' ', '').strip().split("|")[0]
+            news_published_date = news.find('span', class_='posted-by').text.split("|")[1].strip().split(",")[0]
             news_info = news.find('p', class_='newsCont').text
             news_link = news.find('h2', class_='newsHdng').find('a')['href']
             count += 1
@@ -70,7 +69,7 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e: 
-        print("Exception", e.message)
+        print("Exception", e)
 
 
 

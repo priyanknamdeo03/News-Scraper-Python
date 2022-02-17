@@ -3,7 +3,7 @@
   <br>
 </h1> 
 
-> <p align ="center" ><b>Access the HTML of the webpage and extract useful information/data from it. This technique is called web scraping or web harvesting or web data extraction.</b></p>
+> <p align ="center" ><b>We Access the HTML of the webpage and extract useful information/data from it. This technique is called web scraping or web harvesting or web data extraction.</b></p>
 
 
 ## 🚀 Beautiful-Soup Library

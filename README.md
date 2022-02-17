@@ -8,8 +8,6 @@
 - *Beautiful Soup supports the HTML parser included in Python's standard library, however it also supports many external third party python parsers like lxml parser or html5lib parser.*
 
 
-
-
 ## 🧐 Steps involved in web scraping:
 
 1. Send an HTTP request to the URL of the webpage you want to access. The server responds to the request by returning the HTML content of the webpage. For this task, we will use a third-party HTTP library for python-requests.
@@ -18,18 +16,22 @@
 
 3. Now, all we need to do is navigating and searching the parse tree that we created, i.e. tree traversal. For this task, we will be using another third-party python library, Beautiful Soup. It is a Python library for pulling data out of HTML and XML files.
 
+
+## 🛠️ Required third-party libraries
+
+- **requests :** Requests library is one of the integral part of Python for making HTTP requests to a specified URL. Whether it be REST APIs or Web Scrapping, requests is must to be learned for proceeding further with these technologies. When one makes a request to a URI, it returns a response.
+
+- **html5lib :** html5lib is a pure-python library for parsing HTML. As is implemented by all major web browsers. ... It parses the text the same way as done by the major browsers.
+
+- **bs4 :** Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. 
+
+
 Just fill in the details such as `Name`, `Tagline`, `Dev Platforms Username`, `Current Work`, `Portfolio`, `Blog`, etc. with a minimal UI.
-
-- **Uniform Dev Icons**
-
-## 🛠️ Installation Steps
-
-1. Clone the repository
-
 ```bash
 git clone https://github.com/rahuldkjain/github-profile-readme-generator.git
 ```
 
+
 <p align="center">
-Developed with ❤️ in India 🇮🇳 
+Developed with ❤️ by Priyank 
 </p>

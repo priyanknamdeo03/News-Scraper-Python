@@ -1,6 +1,10 @@
 <h1 align="center">
   News Scraper Python
+  <br>
 </h1> 
+
+> <p align ="center" ><b>Access the HTML of the webpage and extract useful information/data from it. This technique is called web scraping or web harvesting or web data extraction.</b></p>
+
 
 ## 🚀 Beautiful-Soup Library
 
@@ -19,14 +23,13 @@
 
 ## 🛠️ Required third-party libraries
 
-- **requests :** Requests library is one of the integral part of Python for making HTTP requests to a specified URL. Whether it be REST APIs or Web Scrapping, requests is must to be learned for proceeding further with these technologies. When one makes a request to a URI, it returns a response.
+- **`requests :`** Requests library is one of the integral part of Python for making HTTP requests to a specified URL. Whether it be REST APIs or Web Scrapping, requests is must to be learned for proceeding further with these technologies. When one makes a request to a URI, it returns a response.
 
-- **html5lib :** html5lib is a pure-python library for parsing HTML. As is implemented by all major web browsers. ... It parses the text the same way as done by the major browsers.
+- **`html5lib :`** html5lib is a pure-python library for parsing HTML. As is implemented by all major web browsers. ... It parses the text the same way as done by the major browsers.
 
-- **bs4 :** Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. 
+- **`bs4 :`** Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. 
 
 
-Just fill in the details such as `Name`, `Tagline`, `Dev Platforms Username`, `Current Work`, `Portfolio`, `Blog`, etc. with a minimal UI.
 ```bash
 git clone https://github.com/rahuldkjain/github-profile-readme-generator.git
 ```

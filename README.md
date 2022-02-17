@@ -31,7 +31,7 @@
 
 
 ```bash
-git clone https://github.com/rahuldkjain/github-profile-readme-generator.git
+git clone https://github.com/priyanknamdeo03/News-Scraper-Python.git
 ```
 
 

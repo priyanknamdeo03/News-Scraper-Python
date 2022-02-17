@@ -29,6 +29,16 @@
 
 - **`bs4 :`** Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. 
 
+## Implementing bs4 Library And Parsing HTML content
+
+A really nice thing about the BeautifulSoup library is that it is built on the top of the HTML parsing libraries like html5lib, lxml, html.parser, etc. So  BeautifulSoup object and specific parser library can be created at the same time.
+```bash
+self.soup = bs4.BeautifulSoup(self.response.content, "html.parser") 
+```
+We create a BeautifulSoup object by passing two arguments:
+
+- **`self.response.content :`** It is the raw HTML content.
+- **`html.parser :`** Specifying the HTML parser we want to use.
 
 ```bash
 git clone https://github.com/priyanknamdeo03/News-Scraper-Python.git
